@@ -2,7 +2,7 @@
 
 
 
-  <h3><b>README FILE</b></h3>
+  <h3><b>Portfolio Mobile Project README FILE</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="is about posting Hello Microverse on Browser"></a>
+# 📖 [Portfolio Project] <a name="is about posting Portfolio on Mobile Design First"></a>
 
-**[hello Microverse]** is based on HTML and CSS design.
+**[Portfolio Project]** is based on HTML and CSS design.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,9 +66,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Posting Hello microverse on browser]**
+- **[Portfolio Project is posting mobile desin of Software Development Portfolio]**
 - **[Using HTML]**
-- **[using CSS]**
+- **[using CSS - Using Flex and other properties]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/dheerajsachdeva/Hello-World)
+- [Live Demo Link](https://github.com/dheerajsachdeva/Portfolio-Mobile-First)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,13 +88,13 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: HTML and CSS
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/dheerajsachdeva/Hello-World
+git clone https://github.com/dheerajsachdeva/Portfolio-Mobile-First
 
 ### Install
 
@@ -133,8 +133,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Updating Index file]**
-- [ ] **[Updating CSS Files for color]**
+- [ ] **[Portfolio Design for Mobile and Desktop]**
+- [ ] **[Web Responsiveness]**
 - [ ] **[.gitignore file to ignore some files and testing linters for error checking]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,7 +145,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/dheerajsachdeva/Hello-World/issues]
+Feel free to check the [https://github.com/dheerajsachdeva/Portfolio-Mobile-First/issues]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,13 +171,13 @@ I would like to thank Microverse and all my coding partners.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[What is Hello Microverse project?]**
+- **[What is Portfolio project?]**
 
-  - [In this project, we tested linters and add Show Hello Microverse on browser as Heading]
+  - [In this project, we are preapring portfolio for software developer using Mobile and Desktop Design with responsiveness.]
 
 - **[What programming languages used in this project?]**
 
-  - [HTML and CSS]
+  - [HTML and CSS - Flex property]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
