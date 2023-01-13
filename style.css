@@ -63,7 +63,7 @@
 }
 
 .slider h1 {
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: bold;
   font-size: 40px;
   line-height: 52px;
@@ -89,12 +89,12 @@
   vertical-align: top;
   font-style: regular;
   color: #344563;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
 }
 
 .slider h5 {
   color: #7f8cff;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   width: 160px;
   height: 24px;
   font-size: 16px;
