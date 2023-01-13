@@ -107,6 +107,11 @@
   padding-left: 24px;
 }
 
+.work-tags li {
+    display: inline-block;
+    list-style: none;
+  }
+
 .social-links ul li {
   list-style-type: none;
   display: inline-block;
@@ -114,20 +119,20 @@
   padding-top: 60px;
 }
 
-.container{
-  display:grid;
+.container {
+  display: grid;
   background-color: #e5e5e5;
-  height:2900px;
-  width: 375px; 
+  height: 2900px;
+  width: 375px;
   grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   row-gap: 12px;
-  align-content:  center;
+  align-content: center;
   justify-content: center;
   margin-top: 20px;
 }
-  
+
 .items {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 327px;
   height: 552px;
   margin-top: 114px;
@@ -182,7 +187,6 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
   font-style: semibold;
   padding-top: 16px;
   color: #7a869a;
@@ -196,7 +200,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  font-size: regular;
+  font-style: regular;
   text-align: left;
   vertical-align: top;
   color: #344563;
@@ -207,11 +211,6 @@
   list-style: none;
   padding-top: 16px;
   flex-wrap: wrap;
-}
-
-.work-tags li {
-  display: inline-block;
-  list-style: none;
 }
 
 .work-tags .html {
@@ -278,7 +277,7 @@
   cursor: pointer;
 }
 
-.button {
+.button1 {
   background-color: white;
   color: #396df2;
   border: 2px solid #6070ff;
@@ -289,23 +288,67 @@
   font-weight: 500;
 }
 
+.button2 {
+    background-color: white;
+    color: #396df2;
+    border: 2px solid #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+  }
+
+  .button3 {
+    background-color: white;
+    color: #396df2;
+    border: 2px solid #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+  }
+
+  .button4 {
+    background-color: white;
+    color: #396df2;
+    border: 2px solid #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+  }
+
+  .button5 {
+    background-color: white;
+    color: #396df2;
+    border: 2px solid #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+  }
+
 .button1:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
 .button3:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
 .button4:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
@@ -392,7 +435,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   font-style: medium;
   text-align: left;
   vertical-align: center;
@@ -400,7 +443,7 @@
 }
 
 .languages {
-	margin-top: 24px;
+  margin-top: 24px;
 }
 
 .javascript-ul {
