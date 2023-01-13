@@ -10,10 +10,6 @@ body {
   list-style: none;
 }
 
-.bg-img{
-
-}
-
 .network {
   padding-left: 10px;
   /* padding-top: 5px; */
@@ -43,7 +39,6 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
-
 }
 
 .nav-list {
@@ -64,7 +59,7 @@ body {
   height: 3px;
   background-color: #6070ff;
   margin-bottom: 5px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .slider {
@@ -105,7 +100,7 @@ body {
 
 .slider h5 {
   color: #7f8cff;
-  font-family:poppins;
+  font-family: poppins;
   width: 160px;
   height: 24px;
   font-size: 16px;
@@ -114,7 +109,7 @@ body {
   text-align: left;
   vertical-align: top;
   font-weight: bolder;
-  padding-top:60px;
+  padding-top: 60px;
   padding-left: 24px;
 }
 
