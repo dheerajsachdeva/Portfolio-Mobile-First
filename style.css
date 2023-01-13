@@ -299,7 +299,7 @@
   font-weight: 500;
 }
 
-  .button3 {
+.button3 {
   background-color: white;
   color: #396df2;
   border: 2px solid #6070ff;
@@ -310,7 +310,7 @@
   font-weight: 500;
 }
 
-  .button4 {
+.button4 {
   background-color: white;
   color: #396df2;
   border: 2px solid #6070ff;
@@ -318,7 +318,8 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-  font-weight: 500;  }
+  font-weight: 500;  
+}
 
 .button1:hover {
   background-color: #008cba;
