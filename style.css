@@ -108,9 +108,9 @@
 }
 
 .work-tags li {
-    display: inline-block;
-    list-style: none;
-  }
+  display: inline-block;
+  list-style: none;
+}
 
 .social-links ul li {
   list-style-type: none;
@@ -289,48 +289,36 @@
 }
 
 .button2 {
-    background-color: white;
-    color: #396df2;
-    border: 2px solid #6070ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-  }
+  background-color: white;
+  color: #396df2;
+  border: 2px solid #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  font-weight: 500;
+}
 
   .button3 {
-    background-color: white;
-    color: #396df2;
-    border: 2px solid #6070ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-  }
+  background-color: white;
+  color: #396df2;
+  border: 2px solid #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  font-weight: 500;
+}
 
   .button4 {
-    background-color: white;
-    color: #396df2;
-    border: 2px solid #6070ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-  }
-
-  .button5 {
-    background-color: white;
-    color: #396df2;
-    border: 2px solid #6070ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-  }
+  background-color: white;
+  color: #396df2;
+  border: 2px solid #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  font-weight: 500;  }
 
 .button1:hover {
   background-color: #008cba;
@@ -415,10 +403,18 @@
   margin-left: 24px;
   width: 162px;
   height: 48px;
+  background-color: white;
+  color: #396df2;
+  border: 2px solid #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  font-weight: 500;
 }
 
 .button5:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
 }
 
