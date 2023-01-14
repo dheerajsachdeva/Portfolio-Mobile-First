@@ -80,11 +80,11 @@
 .slider p {
   width: 327px;
   height: 146px;
-  padding-top: 92px;
+  margin-top: 85px;
   padding-left: 24px;
   font-size: 16px;
   line-height: 24px;
-  line-height: 100%;
+  line-height: 1.6;
   text-align: left;
   vertical-align: top;
   font-style: regular;
@@ -322,23 +322,36 @@
 }
 
 .button1:hover {
-  background-color: #008cba;
-  color: white;
+ background-color: #6070ff;
+ color: white;
+ box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+ border-radius: 16px;
+}
+
+.button1:active {
+  border-radius: 8px;
+  color: #2230d2;  
 }
 
 .button2:hover {
-  background-color: #008cba;
+  background-color: #6070ff;
   color: white;
+  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  border-radius: 16px;
 }
 
 .button3:hover {
-  background-color: #008cba;
+  background-color: #6070ff;
   color: white;
+  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  border-radius: 16px;
 }
 
 .button4:hover {
-  background-color: #008cba;
+  background-color: #6070ff;
   color: white;
+  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  border-radius: 16px;
 }
 
 .about-myself {
@@ -370,19 +383,21 @@
   border-top-right-radius: 60px;
 }
 
-.about-myself p {
+.about-text {
   width: 327px;
-  height: 144px;
-  padding-top: 92px;
-  padding-left: 24px;
+  height: 146px;
+  margin-top: 85px;
+  padding-left: 30px;
   font-size: 16px;
   line-height: 24px;
-  line-height: 100%;
+  line-height: 1.6;
   text-align: left;
   vertical-align: top;
   font-style: regular;
-  color: #344563;
+  color: #324563;
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: regular;
 }
 
 .about-myself h2 {
@@ -396,7 +411,7 @@
   text-align: left;
   vertical-align: top;
   font-weight: bolder;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-left: 24px;
 }
 
@@ -415,14 +430,46 @@
 }
 
 .button5:hover {
-  background-color: #008cba;
+  background-color: #6070ff;
   color: white;
+  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  border-radius: 16px;
 }
 
 .skills {
   padding-left: 36px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.arrow-down img {
+  height: 20px;
+}
+
+.arrow-right-frame img {
+ width :28px;
+}
+
+.arrow-right-skills img {
+  width: 28px;
+}
+
+.arrow-down {
+  padding-top: 55px;;
+  padding-left: 240px;
+  position: absolute;
+}
+
+.arrow-right-frame {
+  position: absolute;
+  padding-left: 240px;
+  padding-top: 360px;;
+}
+
+.arrow-right-skills {
+  position: absolute;
+  padding-left: 240px;
+  padding-top: 445px;;
 }
 
 .skills-li {
@@ -436,11 +483,11 @@
   font-style: medium;
   text-align: left;
   vertical-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .languages {
-  margin-top: 24px;
+  margin-top: 50px;
 }
 
 .javascript-ul {
@@ -459,6 +506,7 @@
   line-height: 20px;
   display: block;
   border-radius: 8px;
+  margin-top:15px;
 }
 
 .java-img {
