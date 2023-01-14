@@ -322,35 +322,35 @@
 }
 
 .button1:hover {
- background-color: #6070ff;
- color: white;
- box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
- border-radius: 16px;
+  background-color: #6070ff;
+  color: white;
+  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  border-radius: 16px;
 }
 
 .button1:active {
   border-radius: 8px;
-  color: #2230d2;  
+  color: #2230d2; 
 }
 
 .button2:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  box-shadow: offset 0.1px 8px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
 .button3:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  box-shadow: offset 0.1px 8px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
 .button4:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  box-shadow: offset 0.1px 8px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -397,7 +397,6 @@
   color: #324563;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-style: regular;
 }
 
 .about-myself h2 {
@@ -432,7 +431,7 @@
 .button5:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: offset 0px 8px rgba(64, 83, 252, 0.24);
+  box-shadow: offset 0.1px 8px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -447,7 +446,7 @@
 }
 
 .arrow-right-frame img {
- width :28px;
+  width: 28px;
 }
 
 .arrow-right-skills img {
@@ -455,7 +454,7 @@
 }
 
 .arrow-down {
-  padding-top: 55px;;
+  padding-top: 55px;
   padding-left: 240px;
   position: absolute;
 }
@@ -463,13 +462,13 @@
 .arrow-right-frame {
   position: absolute;
   padding-left: 240px;
-  padding-top: 360px;;
+  padding-top: 360px;
 }
 
 .arrow-right-skills {
   position: absolute;
   padding-left: 240px;
-  padding-top: 445px;;
+  padding-top: 445px;
 }
 
 .skills-li {
@@ -497,7 +496,6 @@
 .javascript-li {
   width: 303px;
   height: 66.72px;
-  margin-top: 12px;
   background-color: #f7f7f9;
   color: #253858;
   font-family: 'Poppins', sans-serif;
@@ -506,7 +504,7 @@
   line-height: 20px;
   display: block;
   border-radius: 8px;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .java-img {
