@@ -425,7 +425,7 @@
   text-align: center;
   letter-spacing: 3%;
   font-weight: 500;
-  }
+}
 
 .button1 {
   font-family: 'Poppins', sans-serif;
@@ -436,15 +436,13 @@
   background-color: #fff;
   color: #396df2;
   border: 2px solid #7f8cff;
-  font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }
 
 .button1:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -462,15 +460,13 @@
   background-color: #fff;
   color: #396df2;
   border: 2px solid #7f8cff;
-  font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }
 
 .button2:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -488,15 +484,13 @@
   background-color: #fff;
   color: #396df2;
   border: 2px solid #7f8cff;
-  font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }
 
 .button3:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -514,15 +508,13 @@
   background-color: #fff;
   color: #396df2;
   border: 2px solid #7f8cff;
-  font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }
 
 .button4:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
@@ -550,8 +542,7 @@
 .button5:hover {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 16px;
 }
 
