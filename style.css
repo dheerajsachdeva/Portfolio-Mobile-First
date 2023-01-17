@@ -600,13 +600,13 @@
 #fname {
   width: 327px;
   height: 48px;
-  color: #B3BAC5;
+  color: #b3bac5;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   padding: 15px;
 }
-  
+
 #femail {
   width: 327px;
   height: 48px;
@@ -654,4 +654,3 @@
   border-radius: 8px;
   background-color: #2230d2;
 }
- 
