@@ -556,36 +556,34 @@
 }
 
 .contact-me{
-  background-image: url(/img/contact-bg.svg);
+  background-image: url(/img/Contact-bg2.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
   height: 779px;
   width: 375px;
   background-color: #6070ff;
   border-top-left-radius: 100px;
   display:flex;
   flex-direction: column;
-  border: 2px solid red;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 103px;
   }
   
   .contact-me h1 {
-  width: 801px;
-  height: 56px;
-  margin-top: 103px;
   font-family: 'poppins',sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   font-style: bold;
-  line-height: 87%;
   color: #fff;
-  padding-left: 60px;
-  padding-top: 10px;
   }
   
   .contact-me p {
-  margin-top: 12px;
-  width: 327px;
-  height: 102px;
-  margin-left: 25px;
+  margin-top: 24px;
+  margin-bottom: 60px;
+  
   text-align: center;
   font-family: 'poppins',sans-serif;
   font-size: 20px;
@@ -596,30 +594,44 @@
   vertical-align: center;
   
   }
-    
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   #fname{
     width: 327px;
     height: 48px;
+    color: #B3BAC5;
     border-radius: 8px;
-    background-color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding: 15px;
   }
   
   #femail{
     width: 327px;
     height: 48px;
+    color: #B3BAC5;
     border-radius: 8px;
-    background-color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding: 15px;
   }
   
   #ftext{
     width: 327px;
     height: 170px;
+    color: #B3BAC5;
     border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
     padding: 15px 38px 15px 16px;
   }
   
   #fbutton {
-    margin-left: 24px;
     width: 143px;
     height: 48px;
     font-family: 'Poppins', sans-serif;
