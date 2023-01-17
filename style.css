@@ -26,17 +26,22 @@
 
 .nav-links {
   display: flex;
-  font-size: 18 px;
-  color: white;
+  font-size: 15 px;
+  color: #344563;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 14px;
   padding-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: medium;
+  line-height: 20px;
+  line-height: 89%;
 }
 
 .nav-list {
   list-style-type: none;
+  padding-right: 150px;
 }
 
 .nav-list .list-item {
@@ -45,7 +50,7 @@
 }
 
 .nav-links a {
-  color: white;
+  /* color: white; */
 }
 
 .menu-line {
@@ -207,10 +212,9 @@
 }
 
 .work-tags {
-  display: flex;
-  list-style: none;
+  
   padding-top: 16px;
-  flex-wrap: wrap;
+  
 }
 
 .work-tags .html {
@@ -550,3 +554,97 @@
   border-radius: 8px;
   background-color: #2230d2;
 }
+
+.contact-me{
+  background-image: url(/img/contact-bg.svg);
+  height: 779px;
+  width: 375px;
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  display:flex;
+  flex-direction: column;
+  border: 2px solid red;
+  }
+  
+  .contact-me h1 {
+  width: 801px;
+  height: 56px;
+  margin-top: 103px;
+  font-family: 'poppins',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-style: bold;
+  line-height: 87%;
+  color: #fff;
+  padding-left: 60px;
+  padding-top: 10px;
+  }
+  
+  .contact-me p {
+  margin-top: 12px;
+  width: 327px;
+  height: 102px;
+  margin-left: 25px;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  line-height: 1.2;
+  color: #ebebff;
+  font-weight: 400;
+  vertical-align: center;
+  
+  }
+    
+  #fname{
+    width: 327px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  #femail{
+    width: 327px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  #ftext{
+    width: 327px;
+    height: 170px;
+    border-radius: 8px;
+    padding: 15px 38px 15px 16px;
+  }
+  
+  #fbutton {
+    margin-left: 24px;
+    width: 143px;
+    height: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #396df2;
+    border: 2px solid #7f8cff;
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  #fbutton:hover {
+    background-color: #6070ff;
+    color: white;
+    box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 16px;
+  }
+  
+  #fbutton:active {
+    border-radius: 8px;
+    background-color: #2230d2;
+  }
+  
+ 
