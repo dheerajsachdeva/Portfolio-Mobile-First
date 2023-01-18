@@ -580,7 +580,7 @@
 
 .contact-me p {
   margin-top: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   text-align: center;
   font-family: 'poppins', sans-serif;
   font-size: 20px;
@@ -597,6 +597,14 @@
   gap: 20px;
 }
 
+::placeholder{
+  color: #b3bac5;
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 #fname {
   width: 327px;
   height: 48px;
@@ -604,7 +612,11 @@
   border-radius: 8px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  padding: 15px;
+  padding: 15px 38px 15px 16px;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 #femail {
@@ -614,7 +626,11 @@
   border-radius: 8px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  padding: 15px;
+  padding: 15px 38px 15px 16px;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 #ftext {
@@ -625,6 +641,10 @@
   font-family: 'poppins', sans-serif;
   font-style: normal;
   padding: 15px 38px 15px 16px;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 #fbutton {
