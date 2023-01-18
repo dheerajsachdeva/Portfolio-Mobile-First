@@ -554,7 +554,7 @@
 }
 
 .contact-me {
-  background-image: url(/img/Contact-bg2.svg);
+  background-image: url(./img/contact-bg.svg);
   background-position: top right;
   background-repeat: no-repeat;
   height: 779px;
