@@ -185,6 +185,10 @@
   height: 16px;
 }
 
+.work-tags {
+  padding-top: 16px;
+}
+
 .work2-text-768 h2 {
   margin-right: 28px;
 }
@@ -239,10 +243,6 @@
   text-align: left;
   vertical-align: top;
   color: #344563;
-}
-
-.work-tags {
-  padding-top: 16px;
 }
 
 .work-tags .html {
@@ -736,8 +736,7 @@
   background-color: #2230d2;
 }
 
-
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .nav-links a {
     display: none;
   }
@@ -760,10 +759,9 @@
   #work4-img-desk {
     display: none;
   }
-
 }
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
   .menu {
     display: none;
   }
@@ -805,7 +803,6 @@
   .slider .social-links ul {
     margin-left: 260px;
   }
-
 
   .container {
     width: 100%;
@@ -888,7 +885,6 @@
     width: 1156px;
     display: flex;
     flex-direction: row-reverse;
-
   }
 
   .work2-text {
@@ -1071,5 +1067,4 @@
     width: 569px;
     height: 70px;
   }
-
 }

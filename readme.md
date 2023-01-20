@@ -2,7 +2,7 @@
 
 
 
-  <h3><b>Portfolio Mobile Project README FILE</b></h3>
+  <h3><b>Portfolio for Mobile and Desktop Project README FILE</b></h3>
 
 </div>
 
@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="is about posting Portfolio on Mobile Design First"></a>
+# 📖 [Portfolio Project] <a name="is about posting Portfolio on Mobile and Desktop version"></a>
 
 **[Portfolio Project]** is based on HTML and CSS design.
 
@@ -66,8 +66,8 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Portfolio Project is posting mobile desin of Software Development Portfolio]**
-- **[Using HTML]**
+- **[Portfolio Project is posting mobile and Desktop design of Software Development Portfolio]**
+- **[Mobile and Desktop Version]**
 - **[using CSS - Using Flex and other properties]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
