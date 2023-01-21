@@ -39,6 +39,24 @@
   line-height: 89%;
 }
 
+.arrow-down img {
+  height: 20px;
+}
+
+.arrow-right-frame img {
+  width: 28px;
+}
+
+.arrow-right-skills img {
+  width: 28px;
+}
+
+.nav-links img:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
 .nav-list {
   list-style-type: none;
   padding-right: 150px;
@@ -384,18 +402,6 @@
   flex-wrap: wrap;
 }
 
-.arrow-down img {
-  height: 20px;
-}
-
-.arrow-right-frame img {
-  width: 28px;
-}
-
-.arrow-right-skills img {
-  width: 28px;
-}
-
 .arrow-down {
   padding-top: 55px;
   padding-left: 240px;
@@ -476,6 +482,8 @@
   text-align: center;
   letter-spacing: 3%;
   font-weight: 500;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 
 .button1 {
@@ -1077,5 +1085,12 @@
   .contact-me p {
     width: 569px;
     height: 70px;
+  }
+
+  #work1-img-desk:hover,
+  #work2-img-desk:hover,
+  #work3-img-desk:hover,
+  #work4-img-desk:hover {
+    transform: scale(1.01);
   }
 }
