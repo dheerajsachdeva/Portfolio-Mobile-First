@@ -1090,7 +1090,10 @@
     height: 70px;
   }
 
-  #work1-img-desk:hover, #work2-img-desk:hover, #work3-img-desk:hover, #work4-img-desk:hover {
+  #work1-img-desk:hover,
+  #work2-img-desk:hover,
+  #work3-img-desk:hover,
+  #work4-img-desk:hover {
     transform: scale(1.01);
   }
 }
