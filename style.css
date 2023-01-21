@@ -39,6 +39,12 @@
   line-height: 89%;
 }
 
+.nav-links img:hover{
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
 .nav-list {
   list-style-type: none;
   padding-right: 150px;
@@ -476,6 +482,8 @@
   text-align: center;
   letter-spacing: 3%;
   font-weight: 500;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 
 .button1 {
@@ -1085,5 +1093,4 @@
   #work1-img-desk:hover, #work2-img-desk:hover, #work3-img-desk:hover, #work4-img-desk:hover {
     transform: scale(1.01);
   }
-
 }
