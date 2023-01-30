@@ -78,6 +78,11 @@
   /* color: white; */
 }
 
+.mobilelinks{
+  display: flex;
+  flex-direction: column;
+}
+
 .menu-line {
   width: 20px;
   height: 3px;
@@ -745,6 +750,10 @@
   background-color: #2230d2;
 }
 
+#hamburger{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links a {
     display: none;
@@ -1096,4 +1105,4 @@
   #work4-img-desk:hover {
     transform: scale(1.01);
   }
-}
+} 
