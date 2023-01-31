@@ -1,15 +1,14 @@
 const hamburger = document.getElementById("hamburger");
 const navlist = document.querySelector(".nav-list");
-const navlinks = document.querySelectorAll(".list-item a")
-
-navlist.classList.add("mobilelinks");
+let link = document.querySelectorAll(".navlist-a");
+let xicon = document.querySelector(".x-close");
+let modal = document.querySelector(".modal");
 
 
 hamburger.addEventListener("click", () =>{
-
-navlinks.style.display = "block";
-
-
+hamburger.classList.toggle("active");
+navlist.classList.toggle("active");
 
 }
-)
+);
+
