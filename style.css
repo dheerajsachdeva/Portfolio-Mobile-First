@@ -831,6 +831,7 @@ html {
     width: 100%;
     transition: 0.2s;
     background-color: #6070ff;
+    backdrop-filter: blur(8px);
     opacity: 0.9;
     background-blend-mode: multiply;
     font-family: poppins, sans-serif;
