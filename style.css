@@ -8,7 +8,7 @@
   list-style: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -73,25 +73,25 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin : 2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .nav-list .list-item {
   /* display: inline-block; */
   padding: 20px 10px;
-  
-  
+
+
 }
 
 .nav-links a {
   /* color: white; */
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   /* background-color: rgb(114, 177, 248); */
   justify-content: space-between;
@@ -766,23 +766,23 @@ html{
   background-color: #2230d2;
 }
 
-#hamburger{
+#hamburger {
   cursor: pointer;
   display: none;
 }
 
-.x-close{
+.x-close {
   background-color: transparent;
-  border:0;
+  border: 0;
   cursor: pointer;
-  font-size:40px;
+  font-size: 40px;
   position: absolute;
   right: 50px;
-  top:40px;
+  top: 40px;
   color: #fff;
 }
 
-.modal{
+.modal {
   width: 343px;
   height: 743px;
   background-color: rgb(255, 23, 23);
@@ -793,14 +793,14 @@ html{
   border-radius: 16px;
 }
 
-.modal-header{
+.modal-header {
   padding: 10px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.modal-close-button{
+.modal-close-button {
   cursor: pointer;
   border: none;
   outline: none;
@@ -813,27 +813,27 @@ html{
     display: none;
   } */
 
-  
 
-  #hamburger{
+
+  #hamburger {
     display: block;
   }
 
-  #hamburger.active .menu-line:nth-child(2){
+  #hamburger.active .menu-line:nth-child(2) {
     opacity: 0;
   }
 
-  #hamburger.active .menu-line:nth-child(1){
+  #hamburger.active .menu-line:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
   }
 
-  #hamburger.active .menu-line:nth-child(3){
+  #hamburger.active .menu-line:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
   }
 
-  .nav-list{
+  .nav-list {
     position: fixed;
-    top:0;
+    top: 0;
     height: 100vh;
     left: -100%;
     flex-direction: column;
@@ -843,24 +843,24 @@ html{
     opacity: 0.9;
     background-blend-mode: multiply;
     font-family: poppins, sans-serif;
-    
+
   }
 
-  .nav-list .list-item{
+  .nav-list .list-item {
     margin-left: -165px;
     margin-top: 40px;
   }
 
-  .list-item a{
+  .list-item a {
     color: #fff;
     font-size: 32px;
     line-height: 0px;
     font-weight: 600;
   }
 
-   
-  .nav-list.active{
-    left:0;
+
+  .nav-list.active {
+    left: 0;
     top: 0;
     position: fixed;
     height: 100vh;
@@ -868,10 +868,10 @@ html{
     justify-content: flex-start;
   }
 
-  .navlist-a{
-    margin-left:0px;
+  .navlist-a {
+    margin-left: 0px;
     margin-top: 0px;
-    
+
   }
 
   .work2-text-768 {
@@ -903,7 +903,7 @@ html{
     margin-left: 155px;
   }
 
-  .x-close{
+  .x-close {
     display: none;
   }
 
@@ -1224,4 +1224,4 @@ html{
   #work4-img-desk:hover {
     transform: scale(1.01);
   }
-} 
+}
