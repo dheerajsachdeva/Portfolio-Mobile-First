@@ -5,7 +5,6 @@ const navlist = document.querySelector('.nav-list');
 const link = document.querySelectorAll('.navlist-a');
 const xicon = document.querySelector('.x-close');
 
-
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navlist.classList.toggle('active');
@@ -22,8 +21,6 @@ xicon.addEventListener('click', () => {
   navlist.classList.toggle('active');
   hamburger.classList.remove('active');
 });
-
-
 
 // For pop up 
 const pdetails = [
@@ -91,11 +88,9 @@ const cards = document.querySelector(".cards")
 cards.innerHTML = "";
 
 for (let i = 0; i < pdetails.length; i++) {
-
   let tech1 = "";
   pdetails[i].ptech.forEach((ptech) => {
     tech1 += `<li>${ptech}</li>`;
-
   }
   );
 
@@ -105,42 +100,32 @@ for (let i = 0; i < pdetails.length; i++) {
       <img id="work1-img-desk" src="${pdetails[i].pimage}" alt="Work Image Screenshot1">
 
       </div>
-
       <div class="work1-text">
       <h1>${pdetails[i].pname}</h1>
       <ul class="work-ul">
           <li>
               <h2>${pdetails[i].pnamedetails}</h2>
           </li>
-
           <li>
               <h3><img src="./img/workimg/Counter.svg"> &nbsp; &nbsp; ${pdetails[i].pnamedetails1}&nbsp; &nbsp; <img
                       src="./img/workimg/Counter.svg"> &nbsp; &nbsp;${pdetails[i].pnamedate} </h3>
           </li>
       </ul>
-
       <p> ${pdetails[i].pdescription1}</p>
-
       <ul class="tech work-tags">
       ${tech1}
       </ul>
-
       <button class="button button0">See Project</button>
       </div>
   </div>
-  
 </div>`
-  
 }
-
 
 // FOR POPUP
 
 //Creating elements first
 
-
 const modal = document.querySelector(".modal")
-
 
 const button = document.querySelectorAll(".button");
 
@@ -184,12 +169,8 @@ const modalbutton = document.createElement("div");
 modal.appendChild(modalbutton);
 modalbutton.classList.add("modalbutton");
 
-
-
 const openmodal = document.querySelector(".modal")
 const overlay = document.querySelector('.overlay');
-
-
 
 for (let i = 0; i < pdetails.length; i++) {
   button[i].addEventListener("click", () => {
@@ -201,7 +182,6 @@ for (let i = 0; i < pdetails.length; i++) {
     pdetails[i].ptech.forEach((ptech) => {
       tech1 += `<li>${ptech}</li>`;
     });
-
 
     modalheading.innerHTML += `${pdetails[i].pname}<button class="modal-close">&times;</button>`;
     headingdetails.innerHTML += `${pdetails[i].pnamedetails}`;
