@@ -926,18 +926,17 @@ html {
   width: 90%;
   height: 713px;
   background-color: #fff;
-  top: 3.75rem;
-  /* left: 1rem; */
   position: fixed;
   z-index: 5;
   border-radius: 16px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+  overflow: auto;
 }
 
 .modal.active {
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -45%) scale(1);
 }
 
 .exportimage:focus {
