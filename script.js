@@ -219,3 +219,29 @@ for (let i = 0; i < pdetails.length; i++) {
 
   });
 }
+const closemodalbuttons = document.querySelector('.modalheading');
+
+closemodalbuttons.addEventListener('click', () => {
+  openmodal.classList.remove("active");
+  overlay.classList.remove("active");
+  // openmodal.style.display = "none";
+  // overlay.style.display = "none";
+  location.reload();
+});
+
+function emailValidator() {
+  const EMAIL_INVALID = 'Please enter a correct email address format';
+  const email = document.getElementById('email').value;
+  const emailRegx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+
+  document.forms[0].onsubmit = function (event) {
+    if (emailRegx.test(email)) {
+      document.getElementById('submit-message').innerHTML = 'Success!';
+      document.getElementById('submit-message').style.color = 'green';
+    } else {
+      document.getElementById('submit-message').innerHTML = EMAIL_INVALID;
+      document.getElementById('submit-message').style.color = 'red';
+      event.preventDefault();
+    }
+  };
+}
