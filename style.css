@@ -927,15 +927,17 @@ html {
   height: 713px;
   background-color: #fff;
   top: 3.75rem;
-  left: 1rem;
+  /* left: 1rem; */
   position: fixed;
   z-index: 5;
   border-radius: 16px;
-  transform: scale(0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
 }
 
 .modal.active {
-  transform: scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .exportimage:focus {
@@ -1101,8 +1103,6 @@ html {
 @media screen and (min-width: 768px) {
   .modal {
     width: 1156px;
-    left: 10%;
-    top: 5%;
     display: flex;
     flex-direction: column;
     height: 1000px;
