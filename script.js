@@ -214,8 +214,16 @@ for (let i = 0; i < pdetails.length; i++) {
     modalbutton.innerHTML += `
    <a href = "${pdetails[i].plive}" <button class = "seelive-button-${i}" >See Live <img class = "exportimage" src="./img/export.svg" alt = "export image"> </button></a>
    <a href = "${pdetails[i].psource}"<button class = "seesource-button-${i}" >See Source <img class = "githubimage" src="./img/github_blue.svg" alt = "git hub image"> </button></a>`;
-
-
-
   });
 }
+
+const closemodalbuttons = document.querySelector('.modalheading');
+
+closemodalbuttons.addEventListener('click', () => {
+  openmodal.classList.remove("active");
+  overlay.classList.remove("active");
+  // openmodal.style.display = "none";
+  // overlay.style.display = "none";
+  location.reload();
+});
+
