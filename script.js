@@ -205,23 +205,24 @@ closemodalbuttons.addEventListener('click', () => {
   window.location.reload();
 });
 
-function emailValidator() {
-  const email = document.getElementById('email').value;
-  const emailLowcase = email.toLowerCase();
-  const EMAIL_INVALID = `Please enter a correct format of " ${email} " your address in lowercase format like this: <b>${emailLowcase}</b> Thank you`;
-  const emailRegx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
-
-  document.forms[0].onsubmit = function (event) {
-    if (emailRegx.test(email)) {
-      document.getElementById('valTxt').innerHTML = 'Success!';
-      document.getElementById('valTxt').style.color = 'green';
-    } else {
-      document.getElementById('valTxt').innerHTML = EMAIL_INVALID;
-      document.getElementById('valTxt').style.color = 'red';
-      event.preventDefault();
-    }
-  };
-}
 
 
+const emailregx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+document.getElementById('form').addEventListener('submit', (event) => {
+  const email = document.getElementById('femail').value;
+  const emailerror = document.getElementById('emailerror');
+  const form = document.getElementById('form');
+  
+
+  if (emailregx.test(email)) {
+    emailerror.textContent = 'Successfull';
+    emailerror.style.color = 'green';
+    
+  } else {
+    event.preventDefault();
+    emailerror.textContent = 'Please enter your email in lower case letters and in format like sample@xyz.com!';
+    emailerror.style.color = 'red';
+    emailerror.style.backgroundColor = "white";
+  }
+});
 
