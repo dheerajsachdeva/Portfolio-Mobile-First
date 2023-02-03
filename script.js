@@ -204,3 +204,19 @@ closemodalbuttons.addEventListener('click', () => {
   // overlay.style.display = 'none';
   window.location.reload();
 });
+
+const emailregx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+document.getElementById('form').addEventListener('submit', (event) => {
+  const email = document.getElementById('femail').value;
+  const emailerror = document.getElementById('emailerror');
+
+  if (emailregx.test(email)) {
+    emailerror.textContent = 'Successfull';
+    emailerror.style.color = 'green';
+  } else {
+    event.preventDefault();
+    emailerror.textContent = 'Please enter your email in lower case letters and in format like sample@xyz.com!';
+    emailerror.style.color = 'red';
+    emailerror.style.backgroundColor = 'white';
+  }
+});
