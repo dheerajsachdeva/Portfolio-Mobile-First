@@ -220,4 +220,3 @@ document.getElementById('form').addEventListener('submit', (event) => {
     emailerror.style.backgroundColor = 'white';
   }
 });
-
