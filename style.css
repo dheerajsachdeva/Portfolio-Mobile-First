@@ -1020,6 +1020,11 @@ html {
   margin-top: 28px;
 }
 
+#work1-img-mob, #work2-img-mob {
+  width: 295px;
+  height: 220px;
+  }
+
 @media screen and (max-width: 768px) {
   #hamburger {
     display: block;
@@ -1051,7 +1056,7 @@ html {
     font-family: poppins, sans-serif;
   }
 
-  .nav-list .list-item {
+  /* .nav-list .list-item {
     margin-left: -165px;
     margin-top: 40px;
     width: 200px;
@@ -1062,7 +1067,7 @@ html {
     font-size: 32px;
     line-height: 0px;
     font-weight: 600;
-  }
+  } */
 
   .nav-list.active {
     left: 0;
